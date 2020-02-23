@@ -110,5 +110,12 @@ ul.dropdown-cart li .item-right{
 }
 ul.dropdown-cart li .item-right button{
     margin-top:14px;
+}/* end cart icon styles */
+
+/* hiding search bar */
+#search-bar{
+    display: none;
 }
-/* end cart icon styles */
+.cart{
+    display: none;
+}

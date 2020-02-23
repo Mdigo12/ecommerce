@@ -7,10 +7,13 @@
     <title>My Shop</title>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <script src="js/script.js"></script>
+    
     <script src="js/jQuery-3.4.1.js"></script>
+    
     <script src="js/bootstrap.min.js"></script>
     <script src="https://use.fontawesome.com/c560c025cf.js"></script>
+    <script src="js/script.js"></script>
+      
 </head>
 
 <body>
@@ -121,7 +124,7 @@
                                 </span>
                               </li>
                               <li class="divider"></li>
-                              <li><a class="text-center" href="">View Cart</a></li>
+                              <li><button class="btn btn-lightbtn btn-secondary view_cart">View Cart</button></li>
                           </ul>
                         </li>
                       </ul>
@@ -133,7 +136,7 @@
         </div>
         <!-- search form div -->
         <div>
-            <form class="form-inline-expand-lg">
+            <form class="form-inline-expand-lg" id="search-bar">
                 <div class="input-group input-group-lg">
                     <input type="text" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-l" placeholder="Search...">
                     <div class="input-group-append">
@@ -180,6 +183,7 @@
                                         <input type="button" value="-" class="minus">
                                     </div>
                                 </div>
+                                                            
                                 <div class="col-2 col-sm-2 col-md-2 text-right">
                                     <button type="button" class="btn btn-outline-danger btn-xs">
                                         <i class="fa fa-trash" aria-hidden="true"></i>
