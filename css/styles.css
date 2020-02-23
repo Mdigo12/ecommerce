@@ -113,9 +113,36 @@ ul.dropdown-cart li .item-right button{
 }/* end cart icon styles */
 
 /* hiding search bar */
-#search-bar{
+.search-bar{
     display: none;
 }
 .cart{
     display: none;
 }
+.slide1{
+  height: 100vh;
+  width: 100vw;
+  text-align: center;
+  display: inline-flex;
+  align-items: center;
+  
+}
+.caption{
+    text-align: center;
+    margin: 0 auto;
+    display: inline-block;
+
+
+}
+.slide2{
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+    display: inline-flex;
+  }
+  .slide3{
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+    display: inline-flex;
+  }
