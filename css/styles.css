@@ -68,6 +68,8 @@
 /* cart icon styles */
 ul.cart-icon{
     list-style: none;
+    
+    
 }
 ul.dropdown-cart{
     min-width:250px;
@@ -109,4 +111,4 @@ ul.dropdown-cart li .item-right{
 ul.dropdown-cart li .item-right button{
     margin-top:14px;
 }
-/* cart icon styles */
+/* end cart icon styles */

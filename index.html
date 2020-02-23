@@ -7,17 +7,17 @@
     <title>My Shop</title>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <script src="https://use.fontawesome.com/c560c025cf.js"></script>
     <script src="js/script.js"></script>
     <script src="js/jQuery-3.4.1.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/c560c025cf.js"></script>
 </head>
 
 <body>
     <div class="container-fluid">
         <div class="row row-cols-1">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="#">Navbar</a>
+                <a class="navbar-brand" href="#">My Shop</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse"
                     data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -49,21 +49,25 @@
                         </li>
                     </ul>
                     <!-- search icon -->
-                    <button type="button" class="btn btn-outline-danger btn-xs">
+                    <ul class="form-inline">
+                    <button type="button" class="btn btn-light">
                         <i class="fa fa-search" aria-hidden="true"></i>
                     </button>
                     <!-- end of search icon -->
                    <!-- /cart-icon -->
-                    <ul class="cart-icon ">
+                    <ul class="cart-icon">
                     
                         <li class="dropdown">
-                            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-                          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"> <span class="glyphicon glyphicon-shopping-cart"></span> 7 - Items<span class="caret"></span></a>
+                            <a class="btn btn-light" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                                <i class="fa fa-shopping-cart"></i> Cart
+                                <span class="badge badge-light">4</span>
+                            </a>
+                          
                           <ul class="dropdown-menu dropdown-cart" role="menu">
                               <li>
                                   <span class="item">
                                     <span class="item-left">
-                                        <img src="http://lorempixel.com/50/50/" alt="" />
+                                        <img src="http://lorempixel.com/50/50/" alt="image" />
                                         <span class="item-info">
                                             <span>Item name</span>
                                             <span>23$</span>
@@ -121,23 +125,24 @@
                           </ul>
                         </li>
                       </ul>
+                    </ul>
                       <!-- end of cart-icon -->
                 </div>
                 
             </nav>
         </div>
         <!-- search form div -->
-        <nav class="navbar navbar-light bg-light">
-            <form class="form-inline">
-              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-              
-              <button type="submit" class="btn btn-outline-success my-2 my-sm-0">
-                <i class="fa fa-search" aria-hidden="true"></i>
-            </button>
-            </form>
-          </nav>
         <div>
-            
+            <form class="form-inline-expand-lg">
+                <div class="input-group input-group-lg">
+                    <input type="text" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-l" placeholder="Search...">
+                    <div class="input-group-append">
+                        <button type="submit" class="btn btn-secondary btn-number">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+                </div>
+            </form>
 
         </div>
         <!-- cart-card -->
@@ -146,8 +151,8 @@
                 <div class="card shopping-cart">
                     <div class="card-header bg-dark text-light">
                         <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-                        Shipping cart
-                        <a href="" class="btn btn-outline-info btn-sm pull-right">Continiu shopping</a>
+                        Shopping cart
+                        <a href="" class="btn btn-outline-info btn-sm pull-right">Continiue shopping</a>
                         <div class="clearfix"></div>
                     </div>
                     <div class="card-body">
@@ -249,7 +254,9 @@
         <!-- end of cart card div -->
 
 
-        
+        <div cla>
+
+        </div>
     </div>
 </body>
 
