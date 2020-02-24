@@ -68,17 +68,18 @@
                                 </a>
 
                                 <ul class="dropdown-menu dropdown-cart" role="menu">
-                                    <li>
+                                    
+                                    <li class="list">
                                         <span class="item">
-                                            <span class="item-left">
-                                                <img src="http://lorempixel.com/50/50/" alt="image" />
+                                            <span class="item-left" id="cart_image">
+                                                
                                                 <span class="item-info">
-                                                    <span>Item name</span>
-                                                    <span>23$</span>
+                                                    <span id="name"></span>
+                                                    <span id="price"></span>
                                                 </span>
                                             </span>
                                             <span class="item-right">
-                                                <button class="btn btn-xs btn-danger pull-right">x</button>
+                                                <button class="btn btn-xs btn-danger pull-right" id="delete" >x</button>
                                             </span>
                                         </span>
                                     </li>
@@ -161,6 +162,10 @@
                         <div class="clearfix"></div>
                     </div>
                     <div class="card-body">
+                        <!-- prepend trial product -->
+
+
+                        <!-- end of prepend trial product -->
                         <!-- PRODUCT -->
                         <div class="row">
                             <div class="col-12 col-sm-12 col-md-2 text-center">
@@ -268,16 +273,17 @@
                 <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
             </ol>
             <div class="carousel-inner">
-               
-                    <div class="carousel-item active slide1">
-                        <div class="row row-cols-2">
+
+                <div class="carousel-item active slide1">
+                    <div class="row row-cols-2">
                         <div class="col image">
                             <img src="images/watch1.jpeg" class="d-block " alt="img..." width="" height="100%">
                         </div>
                         <div class="col caption">
                             <div class="caption ">
-                                <h5>First slide label</h5>
-                                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                                <h5>Classic Male Watch</h5>
+                                <p>Comes with a one year warrant</p>
+                                <p>Ksh. 1500</p>
                                 <button class="btn btn-secondary"> Add to Cart</button>
                             </div>
                         </div>
@@ -308,6 +314,166 @@
             </a>
         </div>
         <!-- end of carousel -->
+        <!-- display shoping items -->
+        <div class="row" id="watches">
+            <div class="col-12" id="e1">
+                <p id="ppe1">Our Latest Products</p>
+                <p id="ppe11">View all Portfolio</p>
+            </div>
+            <div class="row row-cols-4">
+                <div class="col">
+                    <div class="card">
+                        <img src="images/watch4.jpeg" alt="Denim Jeans" style="width:100%">
+                        <h1>Tailored Jeans</h1>
+                        <p class="price">$19.99</p>
+                        <p>Some text about the jeans..</p>
+                        <p><button class="btn_add_cart">Add to Cart</button></p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="images/watch4.jpeg" alt="Denim Jeans" style="width:100%">
+                        <h1>Tailored Jeans</h1>
+                        <p class="price">$19.99</p>
+                        <p>Some text about the jeans..</p>
+                        <p><button>Add to Cart</button></p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="images/watch4.jpeg" alt="Denim Jeans" style="width:100%">
+                        <h1>Tailored Jeans</h1>
+                        <p class="price">$19.99</p>
+                        <p>Some text about the jeans..</p>
+                        <p><button>Add to Cart</button></p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="images/watch4.jpeg" alt="Denim Jeans" style="width:100%">
+                        <h1>Tailored Jeans</h1>
+                        <p class="price">$19.99</p>
+                        <p>Some text about the jeans..</p>
+                        <p><button>Add to Cart</button></p>
+                    </div>
+                </div>
+                <!-- end of row 1 -->
+
+                <div class="col">
+                    <div class="card">
+                        <img src="images/watch4.jpeg" alt="Denim Jeans" style="width:100%">
+                        <h1>Tailored Jeans</h1>
+                        <p class="price">$19.99</p>
+                        <p>Some text about the jeans..</p>
+                        <p><button>Add to Cart</button></p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="images/watch4.jpeg" alt="Denim Jeans" style="width:100%">
+                        <h1>Tailored Jeans</h1>
+                        <p class="price">$19.99</p>
+                        <p>Some text about the jeans..</p>
+                        <p><button>Add to Cart</button></p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="images/watch4.jpeg" alt="Denim Jeans" style="width:100%">
+                        <h1>Tailored Jeans</h1>
+                        <p class="price">$19.99</p>
+                        <p>Some text about the jeans..</p>
+                        <p><button>Add to Cart</button></p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="images/watch4.jpeg" alt="Denim Jeans" style="width:100%">
+                        <h1>Tailored Jeans</h1>
+                        <p class="price">$19.99</p>
+                        <p>Some text about the jeans..</p>
+                        <p><button>Add to Cart</button></p>
+                    </div>
+                </div>
+                <!-- end of raw 2 -->
+                <div class="col">
+                    <div class="card">
+                        <img src="images/watch4.jpeg" alt="Denim Jeans" style="width:100%">
+                        <h1>Tailored Jeans</h1>
+                        <p class="price">$19.99</p>
+                        <p>Some text about the jeans..</p>
+                        <p><button>Add to Cart</button></p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="images/watch4.jpeg" alt="Denim Jeans" style="width:100%">
+                        <h1>Tailored Jeans</h1>
+                        <p class="price">$19.99</p>
+                        <p>Some text about the jeans..</p>
+                        <p><button>Add to Cart</button></p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="images/watch4.jpeg" alt="Denim Jeans" style="width:100%">
+                        <h1>Tailored Jeans</h1>
+                        <p class="price">$19.99</p>
+                        <p>Some text about the jeans..</p>
+                        <p><button>Add to Cart</button></p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="images/watch4.jpeg" alt="Denim Jeans" style="width:100%">
+                        <h1>Tailored Jeans</h1>
+                        <p class="price">$19.99</p>
+                        <p>Some text about the jeans..</p>
+                        <p><button>Add to Cart</button></p>
+                    </div>
+                </div>
+                <!-- end of row 3 -->
+                <div class="col">
+                    <div class="card">
+                        <img src="images/watch4.jpeg" alt="Denim Jeans" style="width:100%">
+                        <h1>Tailored Jeans</h1>
+                        <p class="price">$19.99</p>
+                        <p>Some text about the jeans..</p>
+                        <p><button>Add to Cart</button></p>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card">
+                        <img src="images/watch4.jpeg" alt="Denim Jeans" style="width:100%">
+                        <h1>Tailored Jeans</h1>
+                        <p class="price">$19.99</p>
+                        <p>Some text about the jeans..</p>
+                        <p><button>Add to Cart</button></p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="images/watch4.jpeg" alt="Denim Jeans" style="width:100%">
+                        <h1>Tailored Jeans</h1>
+                        <p class="price">$19.99</p>
+                        <p>Some text about the jeans..</p>
+                        <p><button>Add to Cart</button></p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="images/watch4.jpeg" alt="Denim Jeans" style="width:100%">
+                        <h1>Tailored Jeans</h1>
+                        <p class="price">$19.99</p>
+                        <p>Some text about the jeans..</p>
+                        <p><button>Add to Cart</button></p>
+                    </div>
+                </div>
+                <!-- end of row 4 -->
+            </div>
+        </div>
+        <!-- end of shoping items -->
     </div>
 </body>
 
