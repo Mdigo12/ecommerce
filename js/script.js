@@ -18,9 +18,29 @@
     $("#delete").click(function(){
       $(".list").remove();
       $("#delete").hide();
-    });
+
+    //   var cartCount = 1;
+    //   var newCartCount;
+    //   var result;
+    //   function sum(){
+    //   newCartCount+=cartCount;
+    //   return newCartCount;
+    //   result = newCartCount.toString();
+    // }
+    //   $("#item_number").append(result);
+     });
+  //   $( "#item_list").click(function() {
+  //   $( "#item_number" ).append($( "<li>" ));
+  //   var n = $( "li" ).length;
+  //   $( "span" ).text(n);
+  // })
+  // // Trigger the click to start
+  // .trigger( "click" );
+  
+});
+var n =
+$("#item_list11")
     
 
-});
   
 });
